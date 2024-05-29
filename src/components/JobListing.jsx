@@ -34,7 +34,7 @@ const JobListing = ({ job }) => {
           </div>
           <NavLink
             className="h-[36px] bg-indigo-500 hover:bg-indigo-600 text-white px-2 py-2 rounded-lg text-center text-sm"
-            to={`/job/${job.id}`}
+            to={`/jobs/${job.id}`}
           >
             Read More
           </NavLink>
